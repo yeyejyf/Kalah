@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107FDCF719F572F2002C86CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107FDCF619F572F2002C86CB /* main.cpp */; };
+		107FDCFF19F57330002C86CB /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107FDCFD19F57330002C86CB /* GameManager.cpp */; };
+		107FDD0119F57A49002C86CB /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107FDD0019F57A49002C86CB /* test.cpp */; };
+		107FDD0419F5923B002C86CB /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107FDD0219F5923B002C86CB /* Player.cpp */; };
+		107FDD0719F59E79002C86CB /* AI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107FDD0519F59E79002C86CB /* AI.cpp */; };
+		107FDD0B19F5AC54002C86CB /* Gamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107FDD0919F5AC54002C86CB /* Gamer.cpp */; };
+		107FDD0E19F5DDF5002C86CB /* HardAI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107FDD0C19F5DDF5002C86CB /* HardAI.cpp */; };
+		107FDD1119F5E4DA002C86CB /* PlayChess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 107FDD0F19F5E4DA002C86CB /* PlayChess.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		107FDCF119F572F2002C86CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		107FDCF319F572F2002C86CB /* Kalah */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kalah; sourceTree = BUILT_PRODUCTS_DIR; };
+		107FDCF619F572F2002C86CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		107FDCFD19F57330002C86CB /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameManager.cpp; sourceTree = "<group>"; };
+		107FDCFE19F57330002C86CB /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		107FDD0019F57A49002C86CB /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		107FDD0219F5923B002C86CB /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		107FDD0319F5923B002C86CB /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		107FDD0519F59E79002C86CB /* AI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AI.cpp; sourceTree = "<group>"; };
+		107FDD0619F59E79002C86CB /* AI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AI.h; sourceTree = "<group>"; };
+		107FDD0819F5AAE9002C86CB /* RunnablePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunnablePlayer.h; sourceTree = "<group>"; };
+		107FDD0919F5AC54002C86CB /* Gamer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gamer.cpp; sourceTree = "<group>"; };
+		107FDD0A19F5AC54002C86CB /* Gamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gamer.h; sourceTree = "<group>"; };
+		107FDD0C19F5DDF5002C86CB /* HardAI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HardAI.cpp; sourceTree = "<group>"; };
+		107FDD0D19F5DDF5002C86CB /* HardAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardAI.h; sourceTree = "<group>"; };
+		107FDD0F19F5E4DA002C86CB /* PlayChess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayChess.cpp; sourceTree = "<group>"; };
+		107FDD1019F5E4DA002C86CB /* PlayChess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayChess.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107FDCF019F572F2002C86CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107FDCEA19F572F2002C86CB = {
+			isa = PBXGroup;
+			children = (
+				107FDCF519F572F2002C86CB /* Kalah */,
+				107FDCF419F572F2002C86CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		107FDCF419F572F2002C86CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				107FDCF319F572F2002C86CB /* Kalah */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107FDCF519F572F2002C86CB /* Kalah */ = {
+			isa = PBXGroup;
+			children = (
+				107FDD0519F59E79002C86CB /* AI.cpp */,
+				107FDD0619F59E79002C86CB /* AI.h */,
+				107FDCFD19F57330002C86CB /* GameManager.cpp */,
+				107FDCFE19F57330002C86CB /* GameManager.h */,
+				107FDD0919F5AC54002C86CB /* Gamer.cpp */,
+				107FDD0A19F5AC54002C86CB /* Gamer.h */,
+				107FDD0C19F5DDF5002C86CB /* HardAI.cpp */,
+				107FDD0D19F5DDF5002C86CB /* HardAI.h */,
+				107FDCF619F572F2002C86CB /* main.cpp */,
+				107FDD0219F5923B002C86CB /* Player.cpp */,
+				107FDD0319F5923B002C86CB /* Player.h */,
+				107FDD0819F5AAE9002C86CB /* RunnablePlayer.h */,
+				107FDD0019F57A49002C86CB /* test.cpp */,
+				107FDD0F19F5E4DA002C86CB /* PlayChess.cpp */,
+				107FDD1019F5E4DA002C86CB /* PlayChess.h */,
+			);
+			path = Kalah;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		107FDCF219F572F2002C86CB /* Kalah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107FDCFA19F572F2002C86CB /* Build configuration list for PBXNativeTarget "Kalah" */;
+			buildPhases = (
+				107FDCEF19F572F2002C86CB /* Sources */,
+				107FDCF019F572F2002C86CB /* Frameworks */,
+				107FDCF119F572F2002C86CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kalah;
+			productName = Kalah;
+			productReference = 107FDCF319F572F2002C86CB /* Kalah */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		107FDCEB19F572F2002C86CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = yunfan.jin;
+				TargetAttributes = {
+					107FDCF219F572F2002C86CB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 107FDCEE19F572F2002C86CB /* Build configuration list for PBXProject "Kalah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 107FDCEA19F572F2002C86CB;
+			productRefGroup = 107FDCF419F572F2002C86CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107FDCF219F572F2002C86CB /* Kalah */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107FDCEF19F572F2002C86CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107FDD0719F59E79002C86CB /* AI.cpp in Sources */,
+				107FDD0419F5923B002C86CB /* Player.cpp in Sources */,
+				107FDD1119F5E4DA002C86CB /* PlayChess.cpp in Sources */,
+				107FDD0B19F5AC54002C86CB /* Gamer.cpp in Sources */,
+				107FDCF719F572F2002C86CB /* main.cpp in Sources */,
+				107FDCFF19F57330002C86CB /* GameManager.cpp in Sources */,
+				107FDD0119F57A49002C86CB /* test.cpp in Sources */,
+				107FDD0E19F5DDF5002C86CB /* HardAI.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		107FDCF819F572F2002C86CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		107FDCF919F572F2002C86CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		107FDCFB19F572F2002C86CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		107FDCFC19F572F2002C86CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		107FDCEE19F572F2002C86CB /* Build configuration list for PBXProject "Kalah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107FDCF819F572F2002C86CB /* Debug */,
+				107FDCF919F572F2002C86CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107FDCFA19F572F2002C86CB /* Build configuration list for PBXNativeTarget "Kalah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107FDCFB19F572F2002C86CB /* Debug */,
+				107FDCFC19F572F2002C86CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 107FDCEB19F572F2002C86CB /* Project object */;
+}
